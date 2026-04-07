@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mi Agencia Digital</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Mi Agencia Digital</h1>
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
+
+<section id="inicio">
+    <h2>Inicio</h2>
+    <p>Somos un equipo creativo que diseña páginas web</p>
+    <button onclick="saludo()">Haz clic aquí</button>
+</section>
+
+<section id="sobre">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una agencia digital enfocada en crear experiencias web modernas y funcionales.</p>
+</section>
+
+<section id="servicios">
+    <h2>Servicios</h2>
+    <ul>
+        <li>Diseño web</li>
+        <li>Desarrollo frontend</li>
+        <li>Optimización SEO</li>
+    </ul>
+</section>
+
+<section id="contacto">
+    <h2>Contáctanos</h2>
+    <input type="text" id="nombre" placeholder="Tu nombre" required>
+    <button onclick="mostrarNombre()">Enviar</button>
+    <p id="resultado"></p>
+</section>
+
+<footer>
+    <p>© 2026 Mi Agencia Digital</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
